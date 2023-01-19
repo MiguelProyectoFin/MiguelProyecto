@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="CLASES GYM" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:layout_margin="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:gravity="center"
+                    android:paddingVertical="5dp"
+                    android:text="PILATES"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pilates" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="DESCRIPCIÓN"
+                    android:paddingVertical="5dp"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:paddingVertical="5dp"
+                    android:text="¿Qué es el pilates? es una pregunta más frecuente de lo que crees. Si bien es cierto que tiene su origen en los años 40, como veremos más adelante, fue en los 90 cuando se puso de moda en España. El pilates se ha convertido en una de las prácticas favoritas en cuanto a deporte se refiere. Y no es para menos, pues el pilates nos ayuda a mejorar nuestra condición física y mental."
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="YOGA"
+                android:paddingVertical="5dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/yoga" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingVertical="5dp"
+                android:background="#ccc"
+                android:textColor="#000"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:text="La relajación es una de las claves más importantes del Yoga. En los gimnasios españoles esta disciplina ya forma parte de las favoritas de los socios. Cada instructor de Yoga ofrece su sabiduría de forma diferente. Los beneficios del Yoga son interesantes. Mejora la estabilidad, la flexibilidad, la fuerza corporal y promete una relajación extrema." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="3dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="SPINNING"
+                android:paddingVertical="5dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/spinning" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000"
+                android:paddingVertical="5dp"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:paddingVertical="5dp"
+                android:text="Sin duda, esta actividad es la que más adeptos tiene en los gimnasios. El spinning se puso de moda hace muchos años y hasta ahora no ha perdido su puesto en el podio de las clases colectivas. Una bicicleta estática especial sirve como elemento indispensable para desarrollar la sesión deportiva. Unos 45 minutos de duración y el resultado es muy positivo."/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingVertical="5dp"
+                android:textSize="15dp"
+                android:text="ZUMBA"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/zumba" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000"
+                android:paddingVertical="5dp"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#fff"
+                android:paddingVertical="5dp"
+                android:textColor="#000"
+                android:text="Estas clases de baile aeróbicas son las favoritas de muchos. El ritmo de la música guía toda la sesión, que a través de pasos de baile se convierte en una clase en la que las tensiones se descargan de forma natural. Las clases colectivas de Zumba prometen diversión a la vez que se hace ejercicio físico." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="XCORE"
+                android:paddingVertical="5dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/xcore" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingVertical="5dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingVertical="5dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:background="#fff"
+                android:text="Xcore es una de las clases colectivas más novedosas de los gimnasios. Básicamente se trata de una sesión de abdominales muy variada, que ayuda al deportista a mejorar la fuerza en el 'core' o centro del cuerpo. La musculatura lumbar y el abdomen se fortalecen con estas sesiones deportivas." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingVertical="5dp"
+                android:text="BODY PUMP"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/bodypump" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingVertical="5dp"
+                android:background="#ccc"
+                android:textColor="#000"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#fff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingVertical="5dp"
+                android:textColor="#000"
+                android:text="El Body Pump es quizás la clase colectiva más socorrida y famosa de los gimnasios españoles. La idea es trabajar con pesas todo el cuerpo, dividiendo la sesión en grupos musculares. Se realizan muchas repeticiones a un ritmo más o menos rápido, lo que ayuda a activar la capacidad cardiovascular. Combina el ejercicio aeróbico y anaeróbico, aportando buenos resultados tras un tiempo de entrenamiento." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingVertical="5dp"
+                android:text="BODY COMBAT"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/body" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:paddingVertical="5dp"
+                android:textColor="#000"
+                android:text="DESCRIPCIÓN" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:paddingVertical="5dp"
+                android:text="Esta clase combina ejercicios típicos de los deportes de contacto y las artes marciales. Recuerda mucho al boxeo, pero siempre guiado a través de una coreografía que pone en marcha ese efecto cardiovascular, que ayuda a quemar calorías. La música acompaña durante toda la sesión de Body Combat y los deportistas pueden incluir en su rutina algunos elementos típicos del boxeo, como cintas o guantes de entrenamiento." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="#ccc"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

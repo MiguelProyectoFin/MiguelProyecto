@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="by.skriom.cdsports2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home" />
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="by.skriom.cdsports2.ui.editar.EditarFragment"
+        android:label="@string/menu_editar"
+        tools:layout="@layout/editar" />
+    <fragment
+        android:id="@+id/nav_reservar"
+        android:name="by.skriom.cdsports2.ui.reservar.ReservarFragment"
+        android:label="@string/menu_reservar"
+        tools:layout="@layout/lreserva" />
+
+    <fragment
+        android:id="@+id/nav_clase"
+        android:name="by.skriom.cdsports2.ui.clases.ClaseFragment"
+        android:label="@string/menu_clase"
+        tools:layout="@layout/fragment_clase" />
+
+    <fragment
+        android:id="@+id/nav_horario"
+        android:name="by.skriom.cdsports2.ui.horarios.HorarioFragment"
+        android:label="@string/menu_horario"
+        tools:layout="@layout/fragment_horario" />
+
+    <fragment
+        android:id="@+id/nav_ejercicio"
+        android:name="by.skriom.cdsports2.ui.ejercicios.EjercicioFragment"
+        android:label="@string/menu_ejercicio"
+        tools:layout="@layout/fragment_ejercicio" />
+
+
+</navigation>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GYM ATENAS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_reservar">Reservas</string>
+    <string name="menu_editar">Editar Perfil</string>
+    <string name="menu_clase">Clases</string>
+    <string name="menu_horario">Horarios</string>
+    <string name="menu_ejercicio">Ejercicios</string>
+
+    <string-array name="clases">
+        <item>Pilates</item>
+        <item>Cardio</item>
+        <item>Pesas</item>
+        <item>Bicicleta</item>
+        <item>Principiantes</item>
+    </string-array>
+
+    <string-array name="horarios">
+        <item>9:00 a 10:00 hrs</item>
+        <item>10:00 a 11:00 hrs</item>
+        <item>11:00 a 12:00 hrs</item>
+        <item>12:00 a 13:00 hrs</item>
+        <item>13:00 a 14:00 hrs</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

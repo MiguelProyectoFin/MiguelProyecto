@@ -28,5 +28,9 @@
             android:id="@+id/nav_ejercicio"
             android:icon="@drawable/item"
             android:title="@string/menu_ejercicio" />
+        <item
+            android:id="@+id/nav_asistencia"
+            android:icon="@drawable/item"
+            android:title="@string/menu_asistencia" />
     </group>
 </menu>

@@ -39,5 +39,11 @@
         android:label="@string/menu_ejercicio"
         tools:layout="@layout/fragment_ejercicio" />
 
+    <fragment
+        android:id="@+id/nav_asistencia"
+        android:name="by.skriom.cdsports2.ui.asistencia.AsistenciaFragment"
+        android:label="@string/menu_asistencia"
+        tools:layout="@layout/fragment_asistencia" />
+
 
 </navigation>

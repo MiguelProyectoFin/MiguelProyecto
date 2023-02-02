@@ -52,7 +52,7 @@ public class AsistenciaFragment extends Fragment {
                 Log.i("Click", "CLICK ELEMENTO SESSIONX|" );
             }
         });
-        
+
 
         return root;
     }
